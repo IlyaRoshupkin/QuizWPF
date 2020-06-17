@@ -1,0 +1,5 @@
+Images/pic1.jpg|виски
+Images/pic2.jpg|ёж
+Images/pic3.jpg|танк
+Images/pic4.jpg|мост
+Images/pic5.jpg|инна

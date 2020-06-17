@@ -52,7 +52,11 @@ namespace Quiz
         {
             string word = String.Empty;
             foreach (var e in spAnswers.Children) word += (e as TextBlock).Text;
-            if (word == currentAnswer) LoadNewQuestion();
+            if (word == currentAnswer)
+            {
+                MessageBox.Show($"Правильно! Это {currentAnswer.ToUpper()}");
+                LoadNewQuestion();
+            }
         }
 
         /// <summary>
@@ -91,11 +95,11 @@ namespace Quiz
         /// </summary>
         /// <param name="SPAlphabet">Link on StackPanel for alphabet appearing</param>
         /// <param name="SPAnswers">Link on StackPanel for answers appearing</param>
-        /// <param name="ImageView">Link on Image for picture appearing</param>
-        public MainLogic (StackPanel SPAlphabet, StackPanel SPAnswers, Image ImageView)
+        /// <param name="pic">Link on Image for picture appearing</param>
+        public MainLogic (StackPanel SPAlphabet, StackPanel SPAnswers, Image pic)
         {
             data = new QuestionDataBase();
-            image = ImageView;
+            image = pic;
             spAnswers = SPAnswers;
 
             for (int i = (int)'а'; i <= (int)'я'; i++)

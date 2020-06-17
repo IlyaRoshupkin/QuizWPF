@@ -12,11 +12,11 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <Image Grid.Row="0" Source="fury.jpg" x:Name="image"></Image>
-        <StackPanel Grid.Row="1" Orientation="Horizontal"  Width="100" Height="80" x:Name="spAnswer"
+        <Image Grid.Row="0" x:Name="pic"></Image>
+        <StackPanel Grid.Row="1" Orientation="Horizontal"   x:Name="spAnswer"
                     HorizontalAlignment="Center" VerticalAlignment="Center" Background="Aqua"> 
         </StackPanel>
-        <StackPanel Grid.Row="2" Orientation="Horizontal"  Width="100" Height="80" x:Name="spAlp"
+        <StackPanel Grid.Row="2" Orientation="Horizontal"   x:Name="spAlp"
                     HorizontalAlignment="Center" VerticalAlignment="Center" Background="Aqua">
         </StackPanel>
 

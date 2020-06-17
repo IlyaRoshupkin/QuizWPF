@@ -104,45 +104,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Images\desktop.ini" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Пленка\desktop.ini" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="fury.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Пленка\IMG-20200530-WA0000.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0001.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0002.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0003.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0004.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0005.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0006.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0007.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0008.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0009.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0010.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0011.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0012.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0013.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0014.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0015.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0016.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0017.jpg" />
-    <Resource Include="Пленка\IMG-20200530-WA0018.jpg" />
-    <Resource Include="Пленка\IMG-20200610-WA0002.jpg" />
-    <Resource Include="Пленка\IMG-20200610-WA0003.jpg" />
-    <Resource Include="Пленка\IMG-20200610-WA0004.jpg" />
-    <Resource Include="Пленка\IMG-20200610-WA0005.jpg" />
-    <Resource Include="Пленка\IMG-20200611-WA0004.jpg" />
-    <Resource Include="Пленка\IMG-20200612-WA0001.jpg" />
-    <Resource Include="Пленка\IMG-20200612-WA0002.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -155,6 +124,14 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\answers.txt" />
+    <Resource Include="Images\pic1.jpg" />
+    <Resource Include="Images\pic2.jpg" />
+    <Resource Include="Images\pic3.jpg" />
+    <Resource Include="Images\pic4.jpg" />
+    <Resource Include="Images\pic5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
