@@ -70,6 +70,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainLogic.cs" />
     <Compile Include="Question.cs" />
     <Compile Include="QuestionDataBase.cs" />
     <Page Include="MainWindow.xaml">

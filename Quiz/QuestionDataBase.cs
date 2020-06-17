@@ -44,7 +44,7 @@ namespace Quiz
 
             foreach (var e in dateFile)
             {
-                var args = e.Split('|');
+                var args = e.Split('W');
                 dB.Add(new Question(args[0], args[1]));
             }
         }
